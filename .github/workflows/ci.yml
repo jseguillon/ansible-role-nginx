@@ -44,6 +44,8 @@ jobs:
         include:
           - name: Centos 7
             distro: quay.io/jseguillon/kubevirt-images:centos-7-x86_64-genericcloud-2009
+          - name: Focal
+            distro: quay.io/jseguillon/kubevirt-images:focal-server-cloudimg-amd64
           # - ubuntu2004
           # - ubuntu1804
           # - debian10
