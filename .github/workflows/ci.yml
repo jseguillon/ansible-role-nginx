@@ -283,6 +283,7 @@ jobs:
             done
 
             LOGFILE="virtcl-console-$(date '+%Y-%m-%d-%H-%M-%S').log"
+            sleep 15
             echo "Starting virtctl console" >> /tmp/${LOGFILE}
             script -e -c "virtctl console instance" >> /tmp/${LOGFILE}
           done
